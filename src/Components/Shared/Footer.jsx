@@ -15,19 +15,23 @@ const Footer = () => {
               discover exclusive digital items.
             </p>
             <div className="socialLinks flex gap-4 w-full">
-            <FaFacebook className="text-3xl text-blue-800"/>
-            <AiFillTwitterCircle className="text-3xl text-blue-400"/>
-            <div className="rounded-full w-[28px] h-[28px] p-1 bg-blue-600 flex items-center justify-center">
-            <FaLinkedinIn className="text-white text-sm"/>
-            </div>
+              <FaFacebook className="text-3xl text-blue-800" />
+              <AiFillTwitterCircle className="text-3xl text-blue-400" />
+              <div className="rounded-full w-[28px] h-[28px] p-1 bg-blue-600 flex items-center justify-center">
+                <FaLinkedinIn className="text-white text-sm" />
+              </div>
             </div>
           </aside>
         </div>
         <div className="flex flex-row justify-between lg:gap-12">
           <nav className="lg:ml-12">
-            <header className="footer-title flex flex-col text-black font-bold">Market Place</header>
+            <header className="footer-title flex flex-col text-black font-bold">
+              Market Place
+            </header>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">All NFTs</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                All NFTs
+              </a>
             </p>
             <p>
               <a className="link link-hover text-gray-400 font-semibold">New</a>
@@ -37,47 +41,70 @@ const Footer = () => {
             </p>
 
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Sports</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Sports
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Utility</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Utility
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Music</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Music
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Domain Name</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Domain Name
+              </a>
             </p>
           </nav>
           <nav className="lg:mr-12">
-            <header className="footer-title flex flex-col text-black font-bold">My Account</header>
+            <header className="footer-title flex flex-col text-black font-bold">
+              My Account
+            </header>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Profile</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Profile
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Favorite</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Favorite
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">My Collections</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                My Collections
+              </a>
             </p>
             <p>
-              <a className="link link-hover text-gray-400 font-semibold">Settings</a>
+              <a className="link link-hover text-gray-400 font-semibold">
+                Settings
+              </a>
             </p>
           </nav>
         </div>
         <div>
           <nav>
-            <header className="footer-title text-black font-bold">Stay in the loop</header>
+            <header className="footer-title text-black font-bold">
+              Stay in the loop
+            </header>
             <p className="text-gray-500 font-semibold pb-4">
-            Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.
+              Join our mailing list to stay in the loop with our newest feature
+              releases, NFT drops, and tips and tricks for navigating NFTs.
             </p>
             <div className="join relative">
               <input
-                type="text"
+                type="email"
                 placeholder="Enter your email"
                 className="h-12 w-[280px] lg:w-[320px] rounded-full border-2 border-gray-300 pl-4"
               />
-              <button className="absolute top-1 h-10 right-1 rounded-full bg-blue-600 text-xs text-white font-semibold px-6">Subscribe Now</button>
+              <button className="absolute top-1 h-10 right-1 rounded-full bg-blue-600 text-xs text-white font-semibold px-6 transition duration-300 ease-in-out transform hover:scale-110 hover:mr-1">
+                Subscribe Now
+              </button>
             </div>
           </nav>
         </div>

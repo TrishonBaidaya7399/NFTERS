@@ -1,9 +1,15 @@
 // import PropTypes from 'prop-types';
 import userImg from "../../assets/Images/card bg/user.jpg";
-import bg2 from "../../assets/Images/card bg/bg2.jpg";
-import bg3 from "../../assets/Images/card bg/bg3.png";
-import bg4 from "../../assets/Images/card bg/bg4.jpg";
-import bg5 from "../../assets/Images/card bg/bg5.jpg";
+import collector01 from "../../assets/Images/collectors/collector01.png"
+import collector02 from "../../assets/Images/collectors/collector02.png"
+import collector03 from "../../assets/Images/collectors/collector03.png"
+import collector04 from "../../assets/Images/collectors/collector04.png"
+import collector05 from "../../assets/Images/collectors/collector05.png"
+import bg1 from "../../assets/Images/cards/bg00.png";
+import bg2 from "../../assets/Images/cards/bg1.png";
+import bg4 from "../../assets/Images/cards/bg3.png";
+import bg5 from "../../assets/Images/cards/bg4.png";
+
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { FaEthereum } from "react-icons/fa6";
 
@@ -14,7 +20,7 @@ const TopCollections = () => {
         <div className="lg:w-2/3 rounded-lg border-2 border-gray-200 drop-shadow-lg p-4 flex flex-col md:flex-row gap-6">
           <div className="flex flex-col">
             <div className="rounded-lg">
-              <img src={bg3} className="rounded-xl w-full h-[300px] lg:h-[350px]" alt="" />
+              <img src={bg1} className="rounded-xl w-full h-[300px] lg:h-[350px]" alt="" />
             </div>
             <div className="flex flex-row  md:flex-col lg:flex-row justify-between items-center mt-6">
               <div className="flex gap-3 items-center">
@@ -102,7 +108,7 @@ const TopCollections = () => {
                 <div className="py-3 border-b-2 border-gray-200 flex flex-row items-center gap-3">
                 <p className="text-lg font-bold">1</p>
                 <div className="relative">
-                    <img src={userImg} alt="" className="w-10 h-10 rounded-full" />
+                    <img src={collector02} alt="" className="w-10 h-10 rounded-full" />
                     <RiVerifiedBadgeFill className="absolute top-0 -right-1 text-blue-500"/>
                 </div>
                     <div className="flex flex-col">
@@ -114,50 +120,50 @@ const TopCollections = () => {
                 <div className="py-3 border-b-2 border-gray-200 flex flex-row items-center gap-3">
                 <p className="text-lg font-bold">2</p>
                 <div className="relative">
-                    <img src={userImg} alt="" className="w-10 h-10 rounded-full" />
+                    <img src={collector01} alt="" className="w-10 h-10 rounded-full" />
                     {/* <RiVerifiedBadgeFill className="absolute top-0 -right-1 text-blue-500"/> */}
                 </div>
                     <div className="flex flex-col">
-                        <p className="text-sm font-bold">CryptoFunks</p>
-                        <p className="gray-500 text-xs font-semibold">19,769.39</p>
+                        <p className="text-sm font-bold">Cryptix</p>
+                        <p className="gray-500 text-xs font-semibold">2,769.39</p>
                     </div>
-                    <p className="text-red-400 text-lg font-bold">+26.52%</p>
+                    <p className="text-red-400 text-lg font-bold">+10.52%</p>
                 </div>
                 <div className="py-3 border-b-2 border-gray-200 flex flex-row items-center gap-3">
                 <p className="text-lg font-bold">3</p>
                 <div className="relative">
-                    <img src={userImg} alt="" className="w-10 h-10 rounded-full" />
+                    <img src={collector03} alt="" className="w-10 h-10 rounded-full" />
                     {/* <RiVerifiedBadgeFill className="absolute top-0 -right-1 text-blue-500"/> */}
                 </div>
                     <div className="flex flex-col">
-                        <p className="text-sm font-bold">CryptoFunks</p>
-                        <p className="gray-500 text-xs font-semibold">19,769.39</p>
+                        <p className="text-sm font-bold">Frensware</p>
+                        <p className="gray-500 text-xs font-semibold">9,232.39</p>
                     </div>
-                    <p className="text-cyan-300 text-lg font-bold">+26.52%</p>
+                    <p className="text-cyan-300 text-lg font-bold">+2.52%</p>
                 </div>
                 <div className="py-3 border-b-2 border-gray-200 flex flex-row items-center gap-3">
                 <p className="text-lg font-bold">4</p>
                 <div className="relative">
-                    <img src={userImg} alt="" className="w-10 h-10 rounded-full" />
+                    <img src={collector04} alt="" className="w-10 h-10 rounded-full" />
                     <RiVerifiedBadgeFill className="absolute top-0 -right-1 text-blue-500"/>
                 </div>
                     <div className="flex flex-col">
-                        <p className="text-sm font-bold">CryptoFunks</p>
-                        <p className="gray-500 text-xs font-semibold">19,769.39</p>
+                        <p className="text-sm font-bold">PunkArt</p>
+                        <p className="gray-500 text-xs font-semibold">3,769.39</p>
                     </div>
-                    <p className="text-cyan-300 text-lg font-bold">+26.52%</p>
+                    <p className="text-cyan-300 text-lg font-bold">+1.52%</p>
                 </div>
                 <div className="py-3 flex flex-row items-center gap-3">
                 <p className="text-lg font-bold">5</p>
                 <div className="relative">
-                    <img src={userImg} alt="" className="w-10 h-10 rounded-full" />
+                    <img src={collector05} alt="" className="w-10 h-10 rounded-full" />
                     {/* <RiVerifiedBadgeFill className="absolute top-0 -right-1 text-blue-500"/> */}
                 </div>
                     <div className="flex flex-col">
-                        <p className="text-sm font-bold">CryptoFunks</p>
-                        <p className="gray-500 text-xs font-semibold">19,769.39</p>
+                        <p className="text-sm font-bold">Art Crypto</p>
+                        <p className="gray-500 text-xs font-semibold">10,769.39</p>
                     </div>
-                    <p className="text-red-400 text-lg font-bold">+26.52%</p>
+                    <p className="text-red-400 text-lg font-bold">+2.52%</p>
                 </div>
             </div>
         </div>

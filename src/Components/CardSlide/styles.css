@@ -24,5 +24,12 @@
   .swiper-slide:nth-child(3n) {
     background-image: url("../../assets/Images/cards/bg3.png");
   }
+  .swiper-slide:nth-child(4n) {
+    background-image: url("../../assets/Images/cards/bg00.png");
+  }
+  .swiper-slide:nth-child(5n) {
+    background-image: url("../../assets/Images/cards/bg4.png");
+  }
+
 
   

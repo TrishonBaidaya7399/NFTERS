@@ -6,6 +6,9 @@ import Collections from "./CollectionFeaturedNFT/Collections";
 import Stats from "./Stats";
 import TopCollections from "./TopCollections";
 import Aos from "aos";
+import SellYourNFT from "./SellYourNFT";
+import DiscoverNFT from "./DiscoverNFT/DiscoverNFT";
+import Card from "./DiscoverNFT/Card";
 
 const HomePage = () => {
     useEffect(() => {
@@ -20,6 +23,9 @@ const HomePage = () => {
             <Stats/>
             <TopCollections/>
             <Collections/>
+            <SellYourNFT/>
+            <DiscoverNFT/>
+            <Card/>
         </div>
     );
 };

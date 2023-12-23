@@ -1,20 +1,16 @@
-// import PropTypes from 'prop-types';
-import userImg from "../../../assets/Images/card bg/user.jpg";
-import bg2 from "../../../assets/Images/card bg/bg2.jpg";
-import bg3 from "../../../assets/Images/card bg/bg3.png";
-import bg4 from "../../../assets/Images/card bg/bg4.jpg";
-import bg5 from "../../../assets/Images/card bg/bg5.jpg";
-const Gallery = () => {
+import PropTypes from 'prop-types';
+
+const Gallery = ({userImg, bg1, bg3, bg4, bg2}) => {
     return (
         <div className="flex flex-col gap-2">
             <div className=" max-h-[300px] flex flex-row gap-2">
             <div className="w-[75%]">
-                <img src={bg2} className=" rounded-lg w-[400px] h-[258px]" alt="" />
+                <img src={bg1} className=" rounded-lg w-[400px] h-[258px]" alt="" />
             </div>
             <div className="w-[25%] flex flex-col gap-2">
                 <img src={bg3} className=" rounded-lg h-[80px]" alt="" />
                 <img src={bg4} className=" rounded-lg h-[80px]" alt="" />
-                <img src={bg5} className=" rounded-lg h-[80px]" alt="" />
+                <img src={bg2} className=" rounded-lg h-[80px]" alt="" />
             </div>
             </div>
             <div className=" flex flex-row justify-between items-center">
@@ -36,7 +32,12 @@ const Gallery = () => {
 };
 
 Gallery.propTypes = {
-    
+    userImg: PropTypes.string,
+     bg1: PropTypes.string,
+     bg3: PropTypes.string,
+     bg4: PropTypes.string,
+     bg2: PropTypes.string
+
 };
 
 export default Gallery;
